@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/movie-genre-app/static/css/main.38947eaa.css",
+    "main.js": "/movie-genre-app/static/js/main.e27a8782.js",
+    "static/js/453.1a5253da.chunk.js": "/movie-genre-app/static/js/453.1a5253da.chunk.js",
+    "static/media/slider3.jpg": "/movie-genre-app/static/media/slider3.5c3b26b78ad4b9cb1fa4.jpg",
+    "static/media/slider2.jpg": "/movie-genre-app/static/media/slider2.b55f99bee92e197822ce.jpg",
+    "static/media/slider1.jpg": "/movie-genre-app/static/media/slider1.368306af52e73ef15200.jpg",
+    "static/media/logo_movie.png": "/movie-genre-app/static/media/logo_movie.f588402ff7444ca36ce8.png",
+    "index.html": "/movie-genre-app/index.html",
+    "main.38947eaa.css.map": "/movie-genre-app/static/css/main.38947eaa.css.map",
+    "main.e27a8782.js.map": "/movie-genre-app/static/js/main.e27a8782.js.map",
+    "453.1a5253da.chunk.js.map": "/movie-genre-app/static/js/453.1a5253da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38947eaa.css",
+    "static/js/main.e27a8782.js"
+  ]
+}
