@@ -2,6 +2,8 @@ import HomePage from "../pages/Home";
 import MovieListPage from "../pages/MovieList";
 import MovieDetailPage from "../pages/MovieDetail";
 import ContactPage from "../pages/contact";
+import NewsDetail from "../pages/NewDetails";
+import NewsPage from "../pages/News";
 
 export const routes = [
   {
@@ -31,6 +33,18 @@ export const routes = [
    {
     path: "/search", 
     page: MovieListPage,
+    isShowHeader: true,
+    isShowFooter: true,
+  },
+  {
+    path: "/news", 
+    page: NewsPage,
+    isShowHeader: true,
+    isShowFooter: true,
+  },
+   {
+    path: "/news/:id",
+    page: NewsDetail,
     isShowHeader: true,
     isShowFooter: true,
   },

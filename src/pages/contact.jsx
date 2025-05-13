@@ -41,7 +41,7 @@ const Contact = () => {
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Tên */}
           <div>
-            <label className="block text-lg text-gray-100" htmlFor="name">
+            <label className="block text-lg text-gray-100 mb-2" htmlFor="name">
               Họ và Tên
             </label>
             <input
@@ -57,7 +57,7 @@ const Contact = () => {
 
           {/* Email */}
           <div>
-            <label className="block text-lg text-gray-100" htmlFor="email">
+            <label className="block text-lg text-gray-100 mb-2" htmlFor="email">
               Email
             </label>
             <input
@@ -73,7 +73,7 @@ const Contact = () => {
 
           {/* Tin nhắn */}
           <div>
-            <label className="block text-lg text-gray-100" htmlFor="message">
+            <label className="block text-lg text-gray-100 mb-2" htmlFor="message">
               Tin nhắn
             </label>
             <textarea

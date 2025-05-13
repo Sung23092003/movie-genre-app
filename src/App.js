@@ -28,6 +28,8 @@ const AppContent = () => {
   // Kiểm tra nếu là trang Home
   const isHomePage = location.pathname === "/";
   const isContactPage = location.pathname === "/contact";
+  const isNewsPage = location.pathname === "/news";
+  const isNewsDetailPage = location.pathname.startsWith("/news/");
 
   return (
     <Routes>
@@ -43,7 +45,10 @@ const AppContent = () => {
                   {route.isShowHeader && <HeaderComponent />}
                   <div
                     className={`${
-                      isHomePage || isContactPage
+                      isHomePage ||
+                      isContactPage ||
+                      isNewsPage ||
+                      isNewsDetailPage
                         ? ""
                         : "mt-[64px] pt-16 mb-[60px]"
                     }`}
