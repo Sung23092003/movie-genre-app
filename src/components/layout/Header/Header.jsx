@@ -8,7 +8,7 @@ import { searchMovies } from "../../../services/userService";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [searchTerm, setSearchTerm] = useState(""); 
+  const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
 
   const handleSearch = async (e) => {
@@ -17,9 +17,9 @@ const Header = () => {
       try {
         const response = await searchMovies(searchTerm);
         console.log(response.data);
-        navigate(`/search?query=${encodeURIComponent(searchTerm)}`);
-        setSearchTerm(""); 
-        setIsOpen(false); 
+        navigate(`/movies?query=${encodeURIComponent(searchTerm)}`);
+        setSearchTerm("");
+        setIsOpen(false);
       } catch (error) {
         console.error("Lỗi khi tìm phim:", error);
       }

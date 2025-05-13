@@ -30,12 +30,6 @@ export const routes = [
     isShowHeader: true,
     isShowFooter: true,
   },
-   {
-    path: "/search", 
-    page: MovieListPage,
-    isShowHeader: true,
-    isShowFooter: true,
-  },
   {
     path: "/news", 
     page: NewsPage,
